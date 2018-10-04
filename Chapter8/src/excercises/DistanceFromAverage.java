@@ -12,16 +12,14 @@ public class DistanceFromAverage {
 		int quit = 0;
 		Scanner input = new Scanner(System.in);
 		
-		
 		while(quit != 99999) {
-			System.out.println("Enter a number >> ");
+			System.out.println("Enter a number >>");
 			arrayNums[i] = input.nextDouble();
-			
+			i++;
 			total = total + arrayNums[i];
-			i = i + 1;
+			System.out.println("Another number? to quit 99999");
+			quit = input.nextInt();
 		}
-		System.out.println("To quit press 99999");
-		quit = input.nextInt();
 	}
 
 }
