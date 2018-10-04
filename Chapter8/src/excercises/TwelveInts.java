@@ -6,7 +6,7 @@ public class TwelveInts {
 		// TODO Auto-generated method stub
 		int[] numArrays = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 		double total = 0;
-		String[] stringArray = {"This", "is", "a", "string", "array."};
+		String[] stringArray = {"This ", "is ", "a ", "string ", "array."};
 		System.out.println("Print numbers first to last");
 		
 		for(int i = 0; i < numArrays.length; i++) {
@@ -21,6 +21,7 @@ public class TwelveInts {
 		for(int z = 0; z<stringArray.length; z++) {
 			System.out.print(stringArray[z]);
 		}
+		System.out.println("Total: " + total);
 	}
 
 }
